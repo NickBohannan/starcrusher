@@ -10,11 +10,7 @@ public class BadGuyMovement : MonoBehaviour {
 
     public int stepCount = 0;
 
-    private Rigidbody rb;
-
 	void Start () {
-
-        rb = gameObject.GetComponent<Rigidbody>();
 
         lateralAmplitudeModifier = 100f;
         lateralVelocityModifier = 4f;
